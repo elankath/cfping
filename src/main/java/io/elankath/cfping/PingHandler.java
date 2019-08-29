@@ -27,7 +27,6 @@ public class PingHandler extends RouterNanoHTTPD.DefaultHandler {
         final Runtime r = Runtime.getRuntime();
         out.println("--- PING ");
         try {
-            out.println("Url=" + uriResource.getUri());
             out.println("Host=" + InetAddress.getLocalHost());
         } catch (UnknownHostException e) {
             e.printStackTrace(out);
