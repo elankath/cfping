@@ -1,0 +1,11 @@
+---
+applications:
+  - name: ((name))
+    memory: 2G
+    instances: 1
+    path: build/cfping-1.0.0-SNAPSHOT.jar
+    stack: cflinuxfs3
+    env:
+      IT_SYSTEM_ID: it-dev
+    buildpacks:
+      - sap_java_buildpack
