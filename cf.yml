@@ -1,9 +1,9 @@
 ---
 applications:
-  - name: ((name))
+  - name: ping
     memory: 2G
     instances: 1
-    path: build/cfping-1.0.0-SNAPSHOT.jar
+    path: target/ping.jar
     stack: cflinuxfs3
     env:
       IT_SYSTEM_ID: it-dev
