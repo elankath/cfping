@@ -18,7 +18,7 @@
     <junitPlatformVersion>1.2.0</junitPlatformVersion>
     <junitJupiterVersion>5.4.2</junitJupiterVersion>
     <slf4jVersion>1.7.25</slf4jVersion>
-    <nanohttpdVersion>2.2.0</nanohttpdVersion>
+    <nanohttpdVersion>2.3.1</nanohttpdVersion>
   </properties>
  
   <dependencies>
